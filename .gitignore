@@ -6,3 +6,7 @@
 *-backups/
 *.kicad_prl
 _autosave-*
+
+# Derived Gerber/drill output — regenerate via KiCad Plot, or use a
+# fabrication-YYYY-MM-DD.zip order snapshot to reorder the board
+balccon-2k26-hardware/fabrication/

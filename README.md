@@ -20,15 +20,17 @@ gets soldered to the back.
 | ![Front of the PCB](photos/front-PCB-render.png) | ![Back of the PCB](photos/back-PCB-render.png) |
 
 
-### What's in the kit
+### Electronics components
 
-| Qty | Ref | Part | Package / Value | Notes |
-| --- | --- | --- | --- | --- |
-| 1 | BT1 | Coin cell holder | Keystone 3002 (CR2032, 1x) | |
-| 14 | D1–D14 | LED | mostly 0805 — **D2 is 0603, D3 is 0402, D4 is 0201** | intentional solder challenge — sizes get smaller, this is not a BOM error |
-| 14 | R1–R14 | Resistor, 1kΩ | 0805 | LED current-limiting resistors |
-| 1 | SW1 | Slide switch, SPDT | PCM12 | power switch |
-| 1 | — | CR2032 coin cell battery | 3V | not on the PCB — needed to power the badge, order separately |
+| Qty | Ref | Part | Package / Value |
+| --- | --- | --- | --- |
+| 1 | BT1 | Coin cell holder | CR2032 |
+| 14 | D1,D5-D14 | LED | 0805| 
+| 1 | D2| LED | 0603| 
+| 1 | D3| LED | 0402| 
+| 1 | D4| LED | 0201| 
+| 14 | R1–R14 | 1kΩ | 0805 |
+| 1 | SW1 | Slide switch, SPDT | PCM12 |
 
 ### Tools needed
 

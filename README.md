@@ -55,7 +55,22 @@ Since the LEDs are independent, you don't need to solder all of them to have som
 
 ### Step 1 — Resistors (components marked with R#, ex. R8)
 
-TODO — solder all 14 1kΩ 0805 resistors.
+![Resistor locations, R1–R14](photos/resistor-highlight.png)
+
+Solder all 14 1kΩ 0805 resistors (R1–R14, highlighted above).
+
+- Resistors have no polarity — they work the same no matter which way
+  around you place them, so don't worry about orientation.
+- Tack down one pad first, then check the resistor is sitting flat and
+  square on its footprint before soldering the second pad — it's much
+  easier to reheat and nudge it now than after both sides are soldered.
+- Do them all in this step before moving on to the LEDs — it's easier to
+  get used to the 0805 size on a component where orientation doesn't
+  matter, and having every resistor down means each LED branch is ready to
+  light up as soon as its LED goes in.
+- A little flux helps the solder flow cleanly at this pitch; wipe your tip
+  between joints to avoid dragging solder into a bridge between the two
+  pads.
 
 ### Step 2 — LEDs (D1–D14): the solder challenge
 

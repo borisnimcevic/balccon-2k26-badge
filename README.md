@@ -76,6 +76,10 @@ that's the solder challenge, saved for the end).
 
 - Same technique as the resistors: solder one pad first, place the LED on
   it and solder that side, then solder the other side.
+- The trick: solder the LED upside down (flipped, facing into the board)
+  and the light shines *through* the PCB — that's what the badge is
+  designed for, and how the cool kids do it. Soldering it right-side up
+  works too, it just points the light outward instead.
 
 ### Step 3 — Switch (SW1)
 

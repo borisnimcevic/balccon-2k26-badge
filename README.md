@@ -4,16 +4,17 @@ Design assets for the BalCCon 2k26 PCB-style pin/badge.
 
 ## Assembly Instructions
 
-> **Skeleton — work in progress.** Photos of the real board and finished
-> badge will replace the placeholders below once boards and parts are in
-> hand. Quantities/values are pulled from the KiCad board file; double-check
-> them against the actual kit before publishing this for real.
+> **Skeleton — work in progress.** The images below are 3D renders from
+> KiCad; real photos of the assembled board and finished badge will replace
+> them once boards and parts are in hand. Quantities/values are pulled from
+> the KiCad board file; double-check them against the actual kit before
+> publishing this for real.
 
 ### The board
 
 | Front (artwork side) | Back (component side) |
 | --- | --- |
-| TODO: photo — see `svg/pcb-only.svg` / `png/colors/` for the artwork in the meantime | TODO: photo |
+| ![Front of the PCB](photos/front-PCB-render.png) | ![Back of the PCB](photos/back-PCB-render.png) |
 
 The front carries the silkscreen artwork only — no components. Everything
 gets soldered to the back.
@@ -42,6 +43,7 @@ gets soldered to the back.
 
 ## Repository Layout
 
+- `photos/` — renders/photos of the board and badge, used in the assembly instructions above
 - `svg/` — vector source files (Inkscape)
   - `pcb-only.svg` — final PCB-only artwork
   - `logo2k26_08.08-original.svg` — original full logo artwork

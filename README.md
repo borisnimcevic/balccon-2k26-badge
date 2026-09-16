@@ -8,9 +8,13 @@ Design assets for the BalCCon 2k26 PCB-style pin/badge.
 The front carries the silkscreen artwork only — no components. Everything
 gets soldered to the back.
 
+<div align="center">
+
 | Front | Back  |
 | --- | --- |
 | ![Front of the PCB](photos/front-PCB-render.png) | ![Back of the PCB](photos/back-PCB-render.png) |
+
+</div>
 
 
 ### Electronics components
@@ -28,7 +32,7 @@ gets soldered to the back.
 
 ### Schematic
 
-<img src="photos/simple-schematic-led-resistor.png" alt="LED + resistor branch" width="160">
+<p align="center"><img src="photos/simple-schematic-led-resistor.png" alt="LED + resistor branch" width="160"></p>
 
 Each of the 14 LEDs is wired the same way: **VCC → resistor → LED → GND**,
 one branch per LED, all 14 branches in parallel. Circuit explanation:
@@ -55,7 +59,7 @@ Since the LEDs are independent, you don't need to solder all of them to have som
 
 ### Step 1 — Resistors (components marked with R#, ex. R8)
 
-![Resistor locations, R1–R14](photos/resistor-highlight.png)
+<p align="center"><img src="photos/resistor-highlight.png" alt="Resistor locations, R1–R14"></p>
 
 - Resistors have no polarity — they work the same no matter which way
   around you place them, so don't worry about orientation.
@@ -64,7 +68,7 @@ Since the LEDs are independent, you don't need to solder all of them to have som
 
 ### Step 2 — LEDs
 
-![LEDs to solder now](photos/led-highligh.png)
+<p align="center"><img src="photos/led-highligh.png" alt="LEDs to solder now"></p>
 
 Solder every LED highlighted above (skip the small 0603/0402/0201 chain —
 that's the solder challenge, saved for the end).
@@ -72,7 +76,7 @@ that's the solder challenge, saved for the end).
 - Unlike resistors, LEDs are polarized — they only light up one way around.
   The negative side needs to go towards the white mark on the footprint:
 
-  <img src="photos/led-polarity.png" alt="LED polarity — negative towards the white mark" width="220">
+  <p align="center"><img src="photos/led-polarity.png" alt="LED polarity — negative towards the white mark" width="220"></p>
 
 - Same technique as the resistors: solder one pad first, place the LED on
   it and solder that side, then solder the other side.

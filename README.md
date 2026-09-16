@@ -28,11 +28,10 @@ gets soldered to the back.
 
 ### Schematic
 
-![LED + resistor branch](photos/simple-schematic-led-resistor.png)
+<img src="photos/simple-schematic-led-resistor.png" alt="LED + resistor branch" width="160">
 
 Each of the 14 LEDs is wired the same way: **VCC → resistor → LED → GND**,
-one branch per LED, all 14 branches in parallel. A couple of basics explain
-why it's built this way:
+one branch per LED, all 14 branches in parallel. Circuit explanation:
 
 - **Voltage** is the electrical "push" between two points — here, the ~3V
   the CR2032 battery provides between VCC and GND. **Current** is the actual
@@ -52,7 +51,9 @@ the whole badge on and off.
 General rule: solder the smallest / lowest-profile components first, so
 taller parts don't block your iron from reaching the rest.
 
-### Step 1 — Resistors (R1–R14)
+Since the LEDs are independent, you don't need to solder all of them to have something shining.
+
+### Step 1 — Resistors (components marked with R#, ex. R8)
 
 TODO — solder all 14 1kΩ 0805 resistors.
 

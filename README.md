@@ -23,7 +23,7 @@ gets soldered to the back.
 | Qty | Ref | Part | Package / Value | Notes |
 | --- | --- | --- | --- | --- |
 | 1 | BT1 | Coin cell holder | Keystone 3002 (CR2032, 1x) | |
-| 14 | D1–D14 | LED | mostly 0805 — **D2 is 0603, D3 is 0402, D4 is 0201** | ⚠️ confirm this size mix is intentional before ordering parts |
+| 14 | D1–D14 | LED | mostly 0805 — **D2 is 0603, D3 is 0402, D4 is 0201** | intentional solder challenge — sizes get smaller, this is not a BOM error |
 | 14 | R1–R14 | Resistor, 1kΩ | 0805 | LED current-limiting resistors |
 | 1 | SW1 | Slide switch, SPDT | PCM12 | power switch |
 | 1 | — | CR2032 coin cell battery | 3V | not on the PCB — needed to power the badge, order separately |
@@ -35,7 +35,7 @@ gets soldered to the back.
 ### Steps
 
 1. TODO — solder resistors (R1–R14)
-2. TODO — solder LEDs (D1–D14), watch orientation and package size per part above
+2. TODO — solder LEDs (D1–D14) in order from D1 down to D4 — this is the solder challenge, packages shrink from 0805 to 0201
 3. TODO — solder the switch (SW1)
 4. TODO — solder the battery holder (BT1)
 5. TODO — insert the CR2032 battery, flip the switch, verify all LEDs light up

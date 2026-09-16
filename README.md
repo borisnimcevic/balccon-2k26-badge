@@ -87,11 +87,20 @@ that's the solder challenge, saved for the end).
 
 ### Step 3 — Switch (SW1)
 
-TODO — solder the slide switch.
+<p align="center"><img src="photos/switch.png" alt="Slide switch, SW1"></p>
+
+- Same technique as before: put solder on one pad, place the switch in
+  position and solder that pad to tack it down, then solder the rest of
+  the pads.
 
 ### Step 4 — Battery holder (BT1)
 
-TODO — solder the coin cell holder last; it's the tallest part on the board.
+<p align="center"><img src="photos/battery-holder.png" alt="Battery holder, BT1"></p>
+
+- Same technique: put solder on one pad, place the holder and solder that
+  pad, then solder the rest of the pads.
+- It's the tallest part on the board, so solder it last — once it's on,
+  taller components won't get in the way of anything else.
 
 ### Step 5 — Power on
 

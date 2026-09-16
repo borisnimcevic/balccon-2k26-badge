@@ -104,12 +104,22 @@ that's the solder challenge, saved for the end).
 
 ### Step 5 — Power on
 
-TODO — insert the CR2032 battery, flip the switch, and verify all 14 LEDs
-light up.
+Insert the CR2032 battery, flip the switch, and check that all the LEDs
+you've soldered so far light up.
+
+- If one doesn't light, turn the switch off and retouch the joints on that
+  branch's resistor and LED.
+- Never rework a live circuit — always switch the power off before putting
+  the iron on a joint.
 
 ### Step 6 — Solder challenge (optional)
 
-TODO — solder the 0603, then 0402, then 0201 LED last, in shrinking order.
+<p align="center"><img src="photos/soldering-challenge.png" alt="Soldering challenge: shrinking LED packages"></p>
+
+Solder the remaining LEDs — 0603, then 0402, then 0201 last — same
+technique as before: solder on one pad, place the LED and solder that pad,
+then solder the other side. This step is for whoever wants an extra
+challenge and a chance to show off their soldering skills.
 
 ## Repository Layout
 

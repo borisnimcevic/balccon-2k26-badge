@@ -62,17 +62,20 @@ Since the LEDs are independent, you don't need to solder all of them to have som
 - Put solder on one pad first, place the resistor on it and solder that
   side, then solder the other side.
 
-### Step 2 — LEDs, D1 and D5–D14
+### Step 2 — LEDs
 
-![LED locations, D1 and D5-D14](photos/led-highligh.png)
+![LEDs to solder now](photos/led-highligh.png)
+
+Solder every LED highlighted above (skip the small 0603/0402/0201 chain —
+that's the solder challenge, saved for the end).
 
 - Unlike resistors, LEDs are polarized — they only light up one way around.
-  Match the notch/flat edge on the footprint silkscreen to the marked
-  (cathode) edge on the LED itself.
-- Same technique as the resistors: solder on one pad first, place the LED
-  on it and solder that side, then solder the other side.
-- These are all 0805, same size as the resistors — D2, D3 and D4 are
-  smaller and saved for the solder challenge at the end.
+  The negative side needs to go towards the white mark on the footprint:
+
+  <img src="photos/led-polarity.png" alt="LED polarity — negative towards the white mark" width="220">
+
+- Same technique as the resistors: solder one pad first, place the LED on
+  it and solder that side, then solder the other side.
 
 ### Step 3 — Switch (SW1)
 
@@ -87,9 +90,9 @@ TODO — solder the coin cell holder last; it's the tallest part on the board.
 TODO — insert the CR2032 battery, flip the switch, and verify all 14 LEDs
 light up.
 
-### Step 6 — Solder challenge (optional): D2, D3, D4
+### Step 6 — Solder challenge (optional)
 
-TODO — solder D2 (0603), D3 (0402), then D4 (0201) last, in shrinking order.
+TODO — solder the 0603, then 0402, then 0201 LED last, in shrinking order.
 
 ## Repository Layout
 

@@ -12,12 +12,13 @@ Design assets for the BalCCon 2k26 PCB-style pin/badge.
 
 ### The board
 
-| Front (artwork side) | Back (component side) |
+The front carries the silkscreen artwork only — no components. Everything
+gets soldered to the back.
+
+| Front | Back  |
 | --- | --- |
 | ![Front of the PCB](photos/front-PCB-render.png) | ![Back of the PCB](photos/back-PCB-render.png) |
 
-The front carries the silkscreen artwork only — no components. Everything
-gets soldered to the back.
 
 ### What's in the kit
 

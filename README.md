@@ -138,6 +138,6 @@ technique as before: solder on one pad, place the LED and solder that pad,
 then solder the other side. This step is for whoever wants an extra
 challenge and a chance to show off their soldering skills.
 
-Made it all the way through 0402 and ready for the 0201? Find the creator
-of this badge and ask for the LED — it's not in the kit, and that's your
-reward for finishing the challenge.
+⚠️ Made it all the way through 0402 and ready for the 0201? Find the
+creator of this badge and ask for the LED — it's not in the kit, and
+that's your reward for finishing the challenge.

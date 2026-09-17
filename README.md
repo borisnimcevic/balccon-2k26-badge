@@ -52,6 +52,9 @@ the whole badge on and off.
 
 ## Assembly Instructions
 
+> **Note:** the 0201 LED is not included in the kit — see the solder
+> challenge step for how to get one.
+
 General rule: solder the smallest / lowest-profile components first, so
 taller parts don't block your iron from reaching the rest.
 
@@ -84,6 +87,12 @@ that's the solder challenge, saved for the end).
   and the light shines *through* the PCB — that's what the badge is
   designed for, and how the cool kids do it. Soldering it right-side up
   works too, it just points the light outward instead.
+
+  This is what it should actually look like once soldered — upside down,
+  with the green marking on the bottom pointing in the direction of
+  current flow:
+
+  <p align="center"><img src="photos/real-LED-orientation.png" alt="Real soldered LED orientation — green marking points in the direction of current flow"></p>
 
 ### Step 3 — Switch (SW1)
 
@@ -120,3 +129,7 @@ Solder the remaining LEDs — 0603, then 0402, then 0201 last — same
 technique as before: solder on one pad, place the LED and solder that pad,
 then solder the other side. This step is for whoever wants an extra
 challenge and a chance to show off their soldering skills.
+
+Made it all the way through 0402 and ready for the 0201? Find the creator
+of this badge and ask for the LED — it's not in the kit, and that's your
+reward for finishing the challenge.

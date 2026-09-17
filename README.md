@@ -69,6 +69,14 @@ Since the LEDs are independent, you don't need to solder all of them to have som
 - Put solder on one pad first, place the resistor on it and solder that
   side, then solder the other side.
 
+<div align="center">
+
+| 1. Solder blob | 2. Place resistor | 3. Solder the other side |
+| --- | --- | --- |
+| ![Solder blob on one pad](photos/resisotr-step-1.png) | ![Resistor placed and tacked](photos/resistor-step-2.png) | ![Other side soldered](photos/resistor-step-3.png) |
+
+</div>
+
 ### Step 2 — LEDs
 
 <p align="center"><img src="photos/led-highligh.png" alt="LEDs to solder now"></p>
